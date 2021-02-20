@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUESTO DE TRABAJO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+</head>
+
+
+<body>
+
+
+    <div class="main">
+        <div class="container-fluid col-md-8">
+            <br>
+            <h2 style="text-align: center;"> CREANDO PUESTO DE TRABAJO</h2>
+            <br>
+            <form id="foma" action="" enctype="multipart/form-data" method="POST">
+
+                <div class="form-group">
+                    <label for="compañia">Compañia:</label>
+                    <input type="text" class="form-control" id="compañia" placeholder="Que compañia?" name="compañia" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo">Tipo:</label>
+                    <select class="form-control" id="tipo">
+                          <option value="">Seleccione una opcion</option>
+                          <option value="full">full-time,</option>
+                          <option value="part">part-time</option>
+                          <option value="free">freelance</option>                                
+                        </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="photo">Logo</label>
+                    <input type="file" class="form-control" id="photo" accept=".jpg" name="foto">
+                </div>
+
+                <div class="form-group">
+                    <label for="ur">URL:</label>
+                    <input type="url" class="form-control" id="ur" placeholder="Introduce la url" name="ur" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="posicion">Posicion:</label>
+                    <input type="text" class="form-control" id="posicion" placeholder="Que posicion?" name="posicion" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="ubiacion">Ubicacion:</label>
+                    <input type="text" class="form-control" id="ubicacion" placeholder="Que ubicacion?" name="ubicacion" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="categria">Categoria:</label>
+                    <select class="form-control" id="categria">
+                          <option value="">Seleccione una opcion</option>
+                          <option value="programador">Programador web</option>
+                          <option value="servicio">Servicio al cliente</option>
+                          <option value="diseño">Diseño grafico </option>
+                          <option value="administracion">Administración</option>               
+                        </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="Descri">Descripcion del trabajo:</label>
+                    <input type="text" class="form-control" id="Descri" placeholder="Descripcion del trabajo " name="Descri" required>
+                </div>
+                <div class="form-group">
+                    <label for="apli">Cómo aplicar:</label>
+                    <input type="text" class="form-control" id="apli" placeholder="Pasos para aplicar" name="apli" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="exam">Correo electronico:</label>
+                    <input type="email" class="form-control" id="exam" aria-describedby="emailHelp" placeholder="Introduce Email" name="email" required>
+
+                </div>
+
+                <button type="submit" class="btn btn-success" name="boton">Guardar</button>
+
+                <a href="index.html" class="btn btn-success">Volver</a>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+
+</html>
