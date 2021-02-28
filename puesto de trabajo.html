@@ -12,7 +12,10 @@
 </head>
 
 
-<body style="background-image: url(assets/img/admin.jpg);">
+<body style="background-image: url(assets/img/admin.jpg);  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;">
 
     <div class="main">
         <div class="container-fluid col-md-8">
@@ -77,7 +80,7 @@
 
                 <div class="form-group">
                     <label for="categria">Categoría:</label>
-                    <select class="form-control" id="categria" style="width: 500px;
+                    <select class="form-control" id="categoria" style="width: 500px;
                     padding-left:  10px;
                     padding-right: 10px;
                     border: 3px solid black;">
@@ -91,7 +94,7 @@
 
                 <div class="form-group">
                     <label for="Descri">Descripcion del trabajo:</label>
-                    <input type="text" class="form-control" id="Descri" placeholder="Descripcion del trabajo " name="Descri" required style="width: 800px;
+                    <input type="text" class="form-control" id="descri" placeholder="Descripcion del trabajo " name="Descri" required style="width: 800px;
                     padding-left:  10px;
                     padding-right: 10px;
                     border: 3px solid black;">
@@ -113,7 +116,7 @@
 
                 </div>
 
-                <button type="submit" class="btn btn-success" name="boton" style="background-color:#46A2FD; font-size: 15px; ; color: black;padding-top:700px;
+                <button onClick="Guardar()" class="btn btn-success" name="boton" style="background-color:#46A2FD; font-size: 15px; ; color: black;padding-top:700px;
                 padding-bottom:10px;
                 padding-left:60px;
                 padding-right:60px;
@@ -138,6 +141,8 @@
 
         </div>
     </div>
+
+    <script src="assets/js/puestos.js"></script>
 </body>
 
 

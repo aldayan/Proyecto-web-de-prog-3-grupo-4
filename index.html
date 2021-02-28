@@ -11,19 +11,22 @@
 
 </head>
 
-<body style="background-image: url(assets/img/descarga.jpg);">
+<body style="background-image: url(assets/img/admin.jpg);  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;">
 
     <div class="main"></div>
     <div class="container-fluid col-md-8" style="background-color: #ffff; ">
         <br>
         <h2 style="text-align: center; color: #46A2FD;">Bienvenido sea a Job's Rep Dom </h2>
 
-        <form method=GET action="">
+        <form method=POST action="search.php">
             <fieldset>
                 <input type=hidden name=ie value=UTF-8 />
                 <input type=hidden name=oe value=UTF-8 />
 
-                <INPUT TYPE=text id="s" name="q" value="" size="50" style="margin-right: center;" />
+                <INPUT TYPE=text id="s" name="posicion" value="" size="50" style="margin-right: center;" />
                 <font size=-1>
 
 
@@ -118,29 +121,30 @@
         </div>
 
 
+        <button onclick="Mostrar()" class="btn btn-primary">Mostrar</button>
 
+        <table class="table  table-striped">
+            <thead class="thead">
+                <tr>
+                    <th>ID</th>
+                    <th>UBICACION</th>
+                    <th>POSICION</th>
+                    <th>COMPAÑIA</th>
+                    <th></th>
+                </tr>
+            </thead>
 
-
-        <br>
-        <br>
-        <h3 style="font-size: 16px;">Listado de puestos de trabajo</h3>
-
-        <table border="1">
-            <tr>
-                <th>Ubicacion</th>
-                <th>POSICION</th>
-                <th>COMPAÑIA</th>
-
-            </tr>
+            <tbody id="tabla">
+            </tbody>
         </table>
-
-        <br>
-        <br>
-        <br>
 
 
 
     </div>
+
+    <script src="assets/js/puestos.js">
+    </script>
 </body>
+
 
 </html>

@@ -1,0 +1,10 @@
+.over {
+    background-color: aqua !important;
+    color: red !important;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}

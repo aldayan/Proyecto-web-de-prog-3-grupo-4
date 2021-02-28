@@ -1,0 +1,14 @@
+CREATE TABLE `puestos` (
+`id` int(11) NOT NULL,/*Agregar AutoIncremento*/
+`compañia`text,
+`tipo` int(11),
+`logo` text,
+`url` text,
+`posicion` text,
+`ubicacion` text,
+`categoria` int(11),
+`descripcion` text,
+`aplicar` text,
+`email` text,
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+/*Debe agregar los datos Manualmente a la base de datos*/
