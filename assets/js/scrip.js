@@ -1,8 +1,3 @@
-document.getElementById("btn__iniciar-sesion").addEventListener("click", iniciarSesion);
-document.getElementById("btn__registrar").addEventListener("click", register);
-window.addEventListener("resize", anchopagina);
-
-
 var contenedor_login_register = document.querySelector(".contenedor__login-register");
 var formulario_login = document.querySelector(".formulario__login");
 var formulario_register = document.querySelector(".formulario__register");

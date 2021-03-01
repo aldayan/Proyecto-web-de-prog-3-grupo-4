@@ -30,7 +30,7 @@ function printHeader ($ispage= false)
   
   <ul class="navbar-nav px-3">
     <li class="nav-item text-nowrap">
-      <a class="nav-link" href="{$directory}loginadmin.php">Cerrar sesion</a>
+      <a class="nav-link" href="{$directory}../index.html">Cerrar sesion</a>
     </li>
   </ul>
 </nav>

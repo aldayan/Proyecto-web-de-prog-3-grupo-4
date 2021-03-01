@@ -1,0 +1,7 @@
+CREATE TABLE `usuarios` (
+ `id` int(11) NOT NULL,/*Agregar AutoIncremento*/
+ `nombre` varchar(150) DEFAULT NULL,
+ `correo` varchar(150) DEFAULT NULL,
+ `usuario` varchar(150) DEFAULT NULL,
+ `pass` varchar(150) DEFAULT NULL) ENGINE=InnoDB DEFAULT CHARSET=latin1
+/*Debe agregar los datos Manualmente a la base de datos*/
