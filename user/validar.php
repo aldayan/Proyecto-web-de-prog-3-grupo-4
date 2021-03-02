@@ -4,6 +4,8 @@ include ("conet.php");
 
 $usuario = $_POST["usuario"];
 $pass= $_POST["pass"];
+$nombre = $_POST["nombre"];
+$correo= $_POST["correo"];
 
 if(isset($_POST['inpi'])){
 
@@ -24,7 +26,7 @@ if($nr==1)
     
 if(isset($_POST['inpim']))
 {
-$sqlgrabar = "INSERT INTO usuarios(usuario,pass) values ('$usuario','$pass')";
+$sqlgrabar = "INSERT INTO usuarios(usuario,pass,nombre,correo) values ('$usuario','$pass','$correo','$nombre')";
 
 
 if(mysqli_query($conn,$sqlgrabar)){

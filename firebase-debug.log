@@ -1,0 +1,25 @@
+[debug] [2021-03-02T11:13:39.455Z] ----------------------------------------------------------------------
+[debug] [2021-03-02T11:13:39.457Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-02T11:13:39.457Z] CLI Version:   9.5.0
+[debug] [2021-03-02T11:13:39.457Z] Platform:      win32
+[debug] [2021-03-02T11:13:39.457Z] Node Version:  v14.16.0
+[debug] [2021-03-02T11:13:39.458Z] Time:          Tue Mar 02 2021 07:13:39 GMT-0400 (hora estándar del Atlántico)
+[debug] [2021-03-02T11:13:39.458Z] ----------------------------------------------------------------------
+[debug] [2021-03-02T11:13:39.458Z] 
+[debug] [2021-03-02T11:13:39.464Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-02T11:13:39.465Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Xampp\htdocs\Proyecto-web-de-prog-3-grupo-4\Proyecto-web-de-prog-3-grupo-4
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
